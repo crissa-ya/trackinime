@@ -66,6 +66,10 @@ With a beautiful UI and fast performance, TrackiNime makes anime tracking **simp
 
 ##  Database Structure
 
+
+Database: `trackinime_db`
+
+---
 ###  `about` Table
 ```sql
 CREATE TABLE `about` (
