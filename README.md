@@ -122,7 +122,27 @@ CREATE TABLE `user_list` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 ```
+**ERD**
++-------------+         +--------------+         +-------------+
+|   users     | 1      ∞|   user_list  | ∞      1|   anime     |
++-------------+---------+--------------+---------+-------------+
+| id (PK)     |         | id (PK)      |         | id (PK)     |
+| fullname    |         | user_id (FK) |         | title       |
+| username    |         | anime_id(FK) |         | description |
+| password    |         | anime_title  |         | genre       |
+| email       |         | username     |         | episodes    |
+| address     |         | full_name    |         | release_date|
+| birthdate   |         +--------------+         +-------------+               
+| role        |
+| profile_img |
++-------------+
 
++---------+
+|  about  |
++---------+
+| id (PK) |
+| content |
++---------+
 ---
 
 ## 🌸 Screenshots
