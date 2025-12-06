@@ -165,6 +165,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
         <div class="username"><?= htmlspecialchars($user['username']) ?></div>
         <a href="admin_dashboard.php" class="btn">Dashboard</a>
+        <a href="admin_users.php" class="btn">Manage Users</a>
         <a href="logout.php" class="btn danger">Logout</a>
     </div>
 
