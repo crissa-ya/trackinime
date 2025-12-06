@@ -5,20 +5,18 @@
 
 ---
 
-<p align="center">
-  <div style="
-      display: inline-block; 
-      padding: 20px; 
-      border-radius: 20px; 
-      background: url('https://github.com/crissa-ya/trackinime/blob/main/gif.gif?raw=true') no-repeat center center; 
-      background-size: cover;
-  ">
-    <img src="https://github.com/crissa-ya/trackinime/blob/main/traackinime.png?raw=true" 
-         alt="TrackiNime Logo" 
-         width="260" 
-         style="display: block;">
-  </div>
+<p align="center" style="position: relative; display: inline-block; width: 300px; height: 300px;">
+  <!-- Background GIF -->
+  <img src="https://github.com/crissa-ya/trackinime/blob/main/gif.gif?raw=true" 
+       alt="Background" 
+       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 20px; z-index: 0;">
+  
+  <!-- Logo on top -->
+  <img src="https://github.com/crissa-ya/trackinime/blob/main/traackinime.png?raw=true" 
+       alt="TrackiNime Logo" 
+       style="position: relative; z-index: 1; width: 260px; display: block; margin: 0 auto; top: 20px;">
 </p>
+
 
 
 
