@@ -44,29 +44,29 @@ With a beautiful UI and fast performance, TrackiNime makes anime tracking **simp
 
 ---
 
-## 🎌 Features
+##  Features
 
-### 🌟 User Features
-- 🔎 Browse & search anime  
-- ❤️ Add anime to "My List"  
-- 🎨 Aesthetic anime-themed UI  
-- 📄 View descriptions, genres, episodes & release dates  
-- ⭐ Ratings & watch counters  
-- 👤 User accounts with profile images  
+###  User Features
+-  Browse & search anime  
+-  Add anime to "My List"  
+-  Aesthetic anime-themed UI  
+-  View descriptions, genres, episodes & release dates  
+-  Ratings & watch counters  
+-  User accounts with profile images  
 
-### 🛡️ Admin Features
-- 📊 Admin dashboard  
-- ➕ Add anime entries  
-- ✏️ Edit anime  
-- 🗑️ Delete anime  
-- 👥 Manage users  
-- 📈 Monitor watch counts  
+###  Admin Features
+-  Admin dashboard  
+-  Add anime entries  
+-  Edit anime  
+-  Delete anime  
+-  Manage users  
+-  Monitor watch counts  
 
 ---
 
-## 🗄️ Database Structure
+##  Database Structure
 
-### 📝 `about` Table
+###  `about` Table
 ```sql
 CREATE TABLE `about` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -77,7 +77,7 @@ CREATE TABLE `about` (
 
 ---
 
-### 🎬 `anime` Table
+###  `anime` Table
 ```sql
 CREATE TABLE `anime` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -97,7 +97,7 @@ CREATE TABLE `anime` (
 
 ---
 
-### 👤 `users` Table
+###  `users` Table
 ```sql
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -116,7 +116,7 @@ CREATE TABLE `users` (
 
 ---
 
-### 📚 `user_list` Table
+###  `user_list` Table
 ```sql
 CREATE TABLE `user_list` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -139,26 +139,26 @@ CREATE TABLE `user_list` (
 
 ---
 
-## 🌸 Screenshots
+##  Screenshots
 
-### 🏠 Home Page
+###  Home Page
 <p align="center">
   <img src="https://github.com/crissa-ya/trackinime/blob/main/Screenshot%202025-12-06%20193203.png?raw=true" width="80%">
 </p>
 
-### 👤 User Dashboard
+###  User Dashboard
 <p align="center">
   <img src="https://github.com/crissa-ya/trackinime/blob/main/Screenshot%202025-12-06%20193313.png?raw=true"?raw=true" width="80%">
 </p>
 
-### 🛡️ Admin Dashboard
+###  Admin Dashboard
 <p align="center">
   <img src="https://github.com/crissa-ya/trackinime/blob/main/Screenshot%202025-12-06%20193247.png?raw=true" width="80%">
 </p>
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer     | Technology |
 |-----------|------------|
@@ -170,7 +170,7 @@ CREATE TABLE `user_list` (
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -199,6 +199,6 @@ http://localhost/trackinime
 
 ---
 
-## 🏮 License
+##  License
 This project is open-source and free to use.
 
