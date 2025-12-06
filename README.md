@@ -114,7 +114,7 @@ anime_title VARCHAR(255)
 
 ### 🏠 Home Page
 <p align="center">
-  <img src="YOUR_HOME_IMAGE_LINK_HERE" width="80%">
+  <img src="https://github.com/crissa-ya/trackinime/blob/main/Screenshot%202025-12-06%20193203.png?raw=true" width="80%">
 </p>
 
 ### 👤 User Dashboard
