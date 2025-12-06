@@ -112,8 +112,6 @@ anime_title VARCHAR(255)
 
 ## 🌸 Screenshots
 
-> Replace these links after uploading images to GitHub.
-
 ### 🏠 Home Page
 <p align="center">
   <img src="YOUR_HOME_IMAGE_LINK_HERE" width="80%">
@@ -169,18 +167,6 @@ Run Apache & MySQL in XAMPP.
 ```
 http://localhost/trackinime
 ```
-
----
-
-## 💖 Credits
-
-- 🎨 Logo: Custom-designed  
-- 🌌 Background: Anime aesthetic sky art  
-- 🖥️ UI Prototype: TrackiNime PDF  
-
-<p align="center">  
-  Made with 💙 for anime lovers  
-</p>
 
 ---
 
