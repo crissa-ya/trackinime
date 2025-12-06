@@ -15,6 +15,7 @@ $list = mysqli_query($conn, "
     SELECT anime.* 
     FROM anime 
     JOIN user_list ON anime.id = user_list.anime_id
+    
     WHERE user_list.user_id = $userId
 ");
 ?>
