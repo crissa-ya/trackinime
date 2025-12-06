@@ -123,26 +123,13 @@ CREATE TABLE `user_list` (
 
 ```
 **ERD**
-+-------------+         +--------------+         +-------------+
-|   users     | 1      ∞|   user_list  | ∞      1|   anime     |
-+-------------+---------+--------------+---------+-------------+
-| id (PK)     |         | id (PK)      |         | id (PK)     |
-| fullname    |         | user_id (FK) |         | title       |
-| username    |         | anime_id(FK) |         | description |
-| password    |         | anime_title  |         | genre       |
-| email       |         | username     |         | episodes    |
-| address     |         | full_name    |         | release_date|
-| birthdate   |         +--------------+         +-------------+               
-| role        |
-| profile_img |
-+-------------+
 
-+---------+
-|  about  |
-+---------+
-| id (PK) |
-| content |
-+---------+
+<div style="position: relative; width: 100vw; height: 100vh; overflow: hidden;">
+  <img src="https://github.com/crissa-ya/trackinime/blob/main/Screenshot%202025-12-06%20211157.png?raw=true" 
+       alt="TrackiNime Logo" 
+       style="width: 100%; height: 100%; object-fit: cover;">
+</div>
+
 ---
 
 ## 🌸 Screenshots
