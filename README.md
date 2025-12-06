@@ -132,7 +132,7 @@ CREATE TABLE `user_list` (
 **ERD**
 
 <div style="position: relative; width: 100vw; height: 100vh; overflow: hidden;">
-  <img src="https://github.com/crissa-ya/trackinime/blob/main/ERD.png?raw=true" 
+  <img src="https://github.com/crissa-ya/trackinime/blob/main/Screenshot%202025-12-06%20215912.png?raw=true" 
        alt="TrackiNime Logo" 
        style="width: 100%; height: 100%; object-fit: cover;">
 </div>
