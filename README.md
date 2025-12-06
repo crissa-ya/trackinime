@@ -143,7 +143,7 @@ CREATE TABLE `user_list` (
 
 ---
 
-##  Screenshots
+##  Screenshots of Website Content
 
 ###  Home Page
 <p align="center">
