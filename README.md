@@ -119,12 +119,13 @@ anime_title VARCHAR(255)
 
 ### 👤 User Dashboard
 <p align="center">
-  <img src="YOUR_USER_DASHBOARD_IMAGE_LINK_HERE" width="80%">
+  <img src="https://github.com/crissa-ya/trackinime/blob/main/Screenshot%202025-12-06%20193313.png?raw=true
+" width="80%">
 </p>
 
 ### 🛡️ Admin Dashboard
 <p align="center">
-  <img src="YOUR_ADMIN_DASHBOARD_IMAGE_LINK_HERE" width="80%">
+  <img src="https://github.com/crissa-ya/trackinime/blob/main/Screenshot%202025-12-06%20193247.png?raw=true" width="80%">
 </p>
 
 ---
