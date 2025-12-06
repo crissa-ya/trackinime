@@ -34,11 +34,6 @@ It offers:
 
 With a beautiful UI and fast performance, TrackiNime makes anime tracking **simple, fun, and organized**.
 
----
-
-<p align="center">
-  <img src="https://github.com/crissa-ya/trackinime/blob/main/gif.gif?raw=true" alt="Anime Sky Background" width="100%">
-</p>
 
 ---
 
