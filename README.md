@@ -6,7 +6,7 @@
 ---
 
 <p align="center">
-  <img src="YOUR_LOGO_IMAGE_LINK_HERE" alt="TrackiNime Logo" width="260">
+  <img src="https://github.com/crissa-ya/trackinime/blob/main/traackinime.png?raw=true" alt="TrackiNime Logo" width="260">
 </p>
 
 <p align="center">
