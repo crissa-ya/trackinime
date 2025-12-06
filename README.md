@@ -135,8 +135,7 @@ CREATE TABLE `user_list` (
 
 ### 👤 User Dashboard
 <p align="center">
-  <img src="https://github.com/crissa-ya/trackinime/blob/main/Screenshot%202025-12-06%20193313.png?raw=true
-" width="80%">
+  <img src="https://github.com/crissa-ya/trackinime/blob/main/Screenshot%202025-12-06%20193313.png?raw=true"?raw=true" width="80%">
 </p>
 
 ### 🛡️ Admin Dashboard
