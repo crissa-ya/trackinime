@@ -4,8 +4,11 @@
 > A clean, fun, anime-inspired platform to organize and explore your favorite anime.
 
 ---
-
-<p align="center"> <img src="https://github.com/crissa-ya/trackinime/blob/main/Screenshot%202025-12-06%20211157.png?raw=true" alt="TrackiNime Logo" width="260"> </p>
+<div style="position: relative; width: 100vw; height: 100vh; overflow: hidden;">
+  <img src="https://github.com/crissa-ya/trackinime/blob/main/Screenshot%202025-12-06%20211157.png?raw=true" 
+       alt="TrackiNime Logo" 
+       style="width: 100%; height: 100%; object-fit: cover;">
+</div>
 
 
 
