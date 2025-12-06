@@ -21,7 +21,7 @@ A clean, fun, anime-inspired platform to organize and explore your favorite anim
 
 <p align="center">
   <em>
-    TrackiNime — keeping your anime journey simple, fast, and enjoyable.</em>
+    Keeping your anime journey simple, fast, and enjoyable.</em>
 </p>
 
 ---
