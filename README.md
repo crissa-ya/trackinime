@@ -12,8 +12,7 @@
 ---
 
 <p align="center">
-**Track. Discover. Enjoy.**  
-A clean, fun, anime-inspired platform to organize and explore your favorite anime.
+  <strong>Track. Discover. Enjoy.</strong>
 </p>
 
 <p align="center">
