@@ -62,50 +62,66 @@ With a beautiful UI and fast performance, TrackiNime makes anime tracking **simp
 
 ### 📝 `about` Table
 ```sql
-id INT PRIMARY KEY AUTO_INCREMENT,
-content TEXT
+CREATE TABLE `about` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` text DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
 
 ---
 
 ### 🎬 `anime` Table
 ```sql
-id INT PRIMARY KEY AUTO_INCREMENT,
-title VARCHAR(255),
-description TEXT,
-genre VARCHAR(100),
-episodes INT,
-release_date DATE,
-rating FLOAT,
-cover_image VARCHAR(255),
-watch_count INT DEFAULT 0,
-section ENUM('top','most','new') DEFAULT 'new',
-created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+CREATE TABLE `anime` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) DEFAULT NULL,
+  `description` text DEFAULT NULL,
+  `genre` varchar(100) DEFAULT NULL,
+  `episodes` int(11) DEFAULT NULL,
+  `release_date` date DEFAULT NULL,
+  `rating` float DEFAULT NULL,
+  `cover_image` varchar(255) DEFAULT NULL,
+  `watch_count` int(11) DEFAULT 0,
+  `section` enum('top','most','new') DEFAULT 'new',
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
 
 ---
 
 ### 👤 `users` Table
 ```sql
-id INT PRIMARY KEY AUTO_INCREMENT,
-fullname VARCHAR(150),
-username VARCHAR(100) UNIQUE,
-password VARCHAR(255),
-email VARCHAR(150),
-address VARCHAR(255),
-birthdate DATE,
-role ENUM('user','admin') DEFAULT 'user',
-profile_image VARCHAR(255)
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `fullname` varchar(150) DEFAULT NULL,
+  `username` varchar(100) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `email` varchar(150) DEFAULT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `birthdate` date DEFAULT NULL,
+  `role` enum('user','admin') DEFAULT 'user',
+  `profile_image` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `username` (`username`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
 
 ---
 
 ### 📚 `user_list` Table
 ```sql
-id INT PRIMARY KEY AUTO_INCREMENT,
-user_id INT,
-anime_id INT,
-anime_title VARCHAR(255)
+CREATE TABLE `user_list` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) DEFAULT NULL,
+  `anime_id` int(11) DEFAULT NULL,
+  `anime_title` varchar(255) DEFAULT NULL,
+  `username` varchar(100) DEFAULT NULL,
+  `full_name` varchar(150) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 ```
 
 ---
