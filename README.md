@@ -33,7 +33,7 @@ With a beautiful UI and fast performance, TrackiNime makes anime tracking **simp
 ---
 
 <p align="center">
-  <img src="YOUR_BACKGROUND_IMAGE_LINK_HERE" alt="Anime Sky Background" width="100%">
+  <img src="https://github.com/crissa-ya/trackinime/blob/main/gif.gif?raw=true" alt="Anime Sky Background" width="100%">
 </p>
 
 ---
