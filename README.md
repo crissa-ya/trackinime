@@ -5,17 +5,7 @@
 
 ---
 
-<p align="center" style="position: relative; display: inline-block; width: 300px; height: 300px;">
-  <!-- Background GIF -->
-  <img src="https://github.com/crissa-ya/trackinime/blob/main/gif.gif?raw=true" 
-       alt="Background" 
-       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 20px; z-index: 0;">
-  
-  <!-- Logo on top -->
-  <img src="https://github.com/crissa-ya/trackinime/blob/main/traackinime.png?raw=true" 
-       alt="TrackiNime Logo" 
-       style="position: relative; z-index: 1; width: 260px; display: block; margin: 0 auto; top: 20px;">
-</p>
+<p align="center"> <img src="https://github.com/crissa-ya/trackinime/blob/main/Screenshot%202025-12-06%20211157.png?raw=true" alt="TrackiNime Logo" width="260"> </p>
 
 
 
