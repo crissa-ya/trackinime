@@ -9,16 +9,15 @@
 </div>
 
 
-> **Track. Discover. Enjoy.**  
-> A clean, fun, anime-inspired platform to organize and explore your favorite anime.
-
 ---
 
-
+<p align="center">
+> **Track. Discover. Enjoy.**  
+> A clean, fun, anime-inspired platform to organize and explore your favorite anime.
+</p>
 
 <p align="center">
-  <em>**Track. Discover. Enjoy.**  
-    A clean, fun, anime-inspired platform to organize and explore your favorite anime. 
+  <em>
     TrackiNime — keeping your anime journey simple, fast, and enjoyable.</em>
 </p>
 
