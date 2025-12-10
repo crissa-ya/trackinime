@@ -128,7 +128,7 @@ $list = mysqli_query($conn, "
                 <div class="anime-card">
                     <img src="<?= $m['cover_image'] ?>" alt="<?= htmlspecialchars($m['title']) ?>">
                     <div class="anime-info">
-                        <p><strong>Title:</strong> <?= htmlspecialchars($m['anime_title']) ?></p>
+                        <p><strong>Title:</strong> <?= htmlspecialchars($m['title']) ?></p>
                         <p><strong>Genre:</strong> <?= htmlspecialchars($m['genre']) ?></p>
                         <p><strong>Episodes:</strong> <?= htmlspecialchars($m['episodes']) ?></p>
                         <p><strong>Publish:</strong> <?= htmlspecialchars($m['publish_date'] ?? '-') ?></p>
