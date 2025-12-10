@@ -60,7 +60,6 @@ With a beautiful UI and fast performance, TrackiNime makes anime tracking **simp
 -  Edit anime  
 -  Delete anime  
 -  Manage users  
--  Monitor watch counts  
 
 ---
 
